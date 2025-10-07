@@ -14,7 +14,12 @@ export default function Home() {
             fill
           />
         </div>
-        <a className={styles.link} href="#" target="_blank">
+        <a
+          className={styles.link}
+          href="/herbario-urbano.pdf"
+          target="_blank"
+          rel="noopener"
+        >
           Acessar o E-book
         </a>
       </section>
