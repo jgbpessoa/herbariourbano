@@ -4,7 +4,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  min-height: 100dvh;
+  min-height: calc(100dvh - 125px);
+}
+
+.mainContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;

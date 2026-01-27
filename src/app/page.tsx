@@ -1,9 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={`${styles.main} ${styles.mainContainer}`}>
       <h1>Herbário Urbano</h1>
       <section className={styles.hero}>
         <div className={styles.imageWrapper}>
@@ -22,12 +23,10 @@ export default function Home() {
         >
           Acessar o E-book
         </a>
+        <Link className={styles.link} href="/galeria">
+          Galeria dos Murais
+        </Link>
       </section>
-      <footer className={styles.footer}>
-        <div className={styles.logoWrapper}>
-          <Image src={"/logo.avif"} alt="Patrocinadores" fill />
-        </div>
-      </footer>
     </main>
   );
 }

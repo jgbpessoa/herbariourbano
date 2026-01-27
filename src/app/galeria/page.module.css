@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita:wght@400;600;700&display=swap");
+
+.main {
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  width: 100vw;
+  min-height: calc(100dvh - 125px);
+}
+
+.galleryGrid {
+  width: min(96vw, 1200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.galleryWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.link {
+  display: inline-block;
+  max-height: 250px;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  max-width: 330px;
+  height: auto;
+  transition: filter 200ms ease;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(80%, 420px);
+  aspect-ratio: 7 / 2;
+  background-color: #fff;
+  -webkit-mask-image: var(--mask-url);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  mask-image: var(--mask-url);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link:hover .image,
+  .link:focus-visible .image {
+    filter: blur(2px) brightness(0.6);
+  }
+
+  .link:hover::after,
+  .link:focus-visible::after {
+    opacity: 1;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .link::before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    height: 42%;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.2) 55%,
+      rgba(0, 0, 0, 0)
+    );
+    backdrop-filter: blur(4px);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+
+  .link::after {
+    opacity: 1;
+    inset: auto 0 12px 0;
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .galleryGrid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .galleryWrapper {
+    width: calc(30% - 16px);
+    min-width: 220px;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 48px;
+  }
+
+  .image {
+    max-height: 250px;
+    width: auto;
+    max-width: unset;
+  }
+}
+
+.title {
+  font-family: "Sansita", "Times New Roman", serif;
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+
+.mapWrapper {
+  width: 100%;
+  padding: 0 24px;
+  max-width: 800px;
+
+  iframe {
+    width: 100%;
+  }
+}
