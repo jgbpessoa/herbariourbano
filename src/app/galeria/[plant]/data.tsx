@@ -91,7 +91,7 @@ export const PLANTS = {
       },
       {
         title: "Por que escolheu esta planta?",
-        body: "A Cannabis é uma planta conhecida internacionalmente por suas propriedades medicinais curativas, comprovadas cientificamente, e bastante utilizada no Brasil para tratamento de diversas doenças, mas ela ainda enfrenta muitos preconceitos, então o objetivo da pintura é promover uma informação de qualidade à população.",
+        body: "A Cannabis é uma planta conhecida internacionalmente por suas propriedades medicinais curativas, comprovadas cientificamente, e bastante utilizada no Brasil e no mundo no tratamento de diversas doenças neurodegenerativas. Porém, é uma planta que ainda enfrenta muitos preconceitos, então o objetivo da pintura é promover uma informação de qualidade à população.",
       },
       {
         title: "Agradecimentos",
@@ -241,7 +241,7 @@ export const PLANTS = {
       },
       {
         title: "Por que escolheu esta planta?",
-        body: "O Mastruz é uma das plantas existentes na horta do CECON, conhecida popularmente como Erva de Santa Maria, é utilizada em forma de compressas e no preparo do tradicional suco de folhas com leite, com uso comum no alívio de dores e tratamento de feridas.",
+        body: "O Mastruz é uma das plantas existentes na Horta do Centro de Convivência Fátima Caio. Conhecida popularmente como Erva de Santa Maria, é manejada pelos convivas do espaço, sendo utilizada na preparação de chás contra vermes intestinais, problemas digestivos, cicatrização de feridas e fortalecendo a imunidade.",
       },
       {
         title: "Agradecimentos",

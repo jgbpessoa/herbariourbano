@@ -50,6 +50,7 @@ export default async function PlantPage({ params }: PageProps) {
         </div>
         <figcaption className={styles.caption}>{plant.caption}</figcaption>
       </figure>
+      <BackstageGallery slug={slug ?? ""} />
       <div className={styles.audioWrapper}>
         <p>Áudio descrição</p>
         <audio controls>
@@ -57,7 +58,6 @@ export default async function PlantPage({ params }: PageProps) {
           Seu navegador não suporta o elemento de áudio.
         </audio>
       </div>
-      <BackstageGallery slug={slug ?? ""} />
       <div className={styles.textWrapper}>
         <div className={styles.infoCard}>
           {plant.info.map((item) => (
