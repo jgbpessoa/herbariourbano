@@ -1,9 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import Image from "next/image";
-
 import styles from "./page.module.css";
+import ZoomableImage from "./ZoomableImage";
 
 const BACKSTAGE_BY_SLUG = {
   amora: [
@@ -151,12 +150,11 @@ export default function BackstageGallery({ slug }: BackstageGalleryProps) {
               </button>
             </div>
             <div className={styles.galleryImageFrame}>
-              <Image
+              <ZoomableImage
                 src={currentImage.src}
                 alt={currentImage.alt}
-                fill
                 sizes="(max-width: 768px) 92vw, 860px"
-                className={styles.galleryImage}
+                imageClassName={styles.galleryImage}
                 priority
               />
               <button

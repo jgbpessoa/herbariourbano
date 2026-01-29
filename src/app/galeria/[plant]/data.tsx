@@ -14,6 +14,14 @@ export const PLANTS = {
         text: "Amora (Morus nigra).",
       },
       {
+        label: "Data",
+        text: "28/11/2025 e 29/11/2025",
+      },
+      {
+        label: "Área Total",
+        text: "30m²",
+      },
+      {
         label: "Equipe",
         text: "Micaela Almeida (pintura) e Raphael Vieitez (assistente).",
       },
@@ -37,7 +45,7 @@ export const PLANTS = {
       },
       {
         title: "Agradecimentos",
-        body: "O projeto Herbário Urbano agradece o acolhimento do Compaz Governador Eduardo Campos, através da Secretaria de Cidadania e Cultura de Paz do Recife, de Juliana Novaes (superintendente do Compaz EC), Jenisson (gestor de infraestrutura) e todas as pessoas moradoras da região que frequentam o Compaz!",
+        body: "O projeto Herbário Urbano agradece o acolhimento da Secretaria de Cidadania e Cultura de Paz do Recife e do Compaz Governador Eduardo Campos, através da sua Superintendência e Gestão, além de moradoras/es do entorno e todas as pessoas que frequentam o Compaz!",
       },
     ],
   },
@@ -54,6 +62,14 @@ export const PLANTS = {
       {
         label: "Planta",
         text: "Cannabis (Cannabis sativa).",
+      },
+      {
+        label: "Data",
+        text: "10/11/2025 e 11/11/2025",
+      },
+      {
+        label: "Área Total",
+        text: "6m²",
       },
       {
         label: "Equipe",
@@ -79,7 +95,7 @@ export const PLANTS = {
       },
       {
         title: "Agradecimentos",
-        body: "O projeto Herbário Urbano agradece o acolhimento do SIS - Serviço Integrado de Saúde, nas pessoas de Rogelia Herculano, Katia Magdala, Viviane, Prof. Evani Araújo, recepcionistas, seguranças e demais funcionárias/os, além de todas as pessoas que frequentam o espaço com muita alegria!",
+        body: "O projeto Herbário Urbano agradece o acolhimento do SIS - Serviço Integrado de Saúde do Recife, nas pessoas de sua Coordenação, Vice-Coordenação, recepcionistas, seguranças e demais funcionárias/os, além de todas as pessoas que frequentam o espaço!",
       },
     ],
   },
@@ -96,6 +112,14 @@ export const PLANTS = {
       {
         label: "Planta",
         text: "Carqueja (Baccharis trimera).",
+      },
+      {
+        label: "Data",
+        text: "20/10/2025",
+      },
+      {
+        label: "Área Total",
+        text: "19m²",
       },
       {
         label: "Equipe",
@@ -121,7 +145,7 @@ export const PLANTS = {
       },
       {
         title: "Agradecimentos",
-        body: "O projeto Herbário Urbano agradece o acolhimento da Escola Estadual Santos Cosme e Damião, na pessoa de Viviane (gestora da escola), do professor Philipe Ricardo e de todas/os as/os estudantes empenhadas/os nas atividades artísticas!",
+        body: "O projeto Herbário Urbano agradece o acolhimento da Escola Estadual Santos Cosme e Damião, através de sua Gestão, professoras/es e estudantes empenhadas/os nas atividades culturais e na construção de uma Farmácia Viva escolar!",
       },
     ],
   },
@@ -138,6 +162,14 @@ export const PLANTS = {
       {
         label: "Planta",
         text: "Chambá (Justicia pectoralis).",
+      },
+      {
+        label: "Data",
+        text: "04/12/2025",
+      },
+      {
+        label: "Área Total",
+        text: "11m²",
       },
       {
         label: "Equipe",
@@ -163,7 +195,7 @@ export const PLANTS = {
       },
       {
         title: "Agradecimentos",
-        body: "O projeto Herbário Urbano agradece o acolhimento da Horta Comunitária Mãos de Milagres, nas pessoas de Taciana Bezerra e de todas as mulheres que compõem o coletivo e que mantém a Horta Comunitária em movimento no bairro do Ibura!",
+        body: "O projeto Herbário Urbano agradece o acolhimento da Horta Comunitária Mãos de Milagres, através de todas as mulheres que compõem o coletivo e que mantém a Horta Comunitária em movimento no bairro do Ibura!",
       },
     ],
   },
@@ -180,6 +212,14 @@ export const PLANTS = {
       {
         label: "Planta",
         text: "Mastruz (Chenopodium ambrosioides).",
+      },
+      {
+        label: "Data",
+        text: "17/10/2025",
+      },
+      {
+        label: "Área Total",
+        text: "5m²",
       },
       {
         label: "Equipe",
@@ -205,7 +245,7 @@ export const PLANTS = {
       },
       {
         title: "Agradecimentos",
-        body: "O projeto Herbário Urbano agradece ao acolhimento do Cecon Fátima Caio, nas pessoas de Athila Magno, Bárbara Buzzati, e todas/os as/os Convivas que frequentam o espaço.",
+        body: "O projeto Herbário Urbano agradece o acolhimento do Cecon Fátima Caio, através de sua Gestão, funcionárias/os e as/os Convivas que frequentam o espaço!",
       },
     ],
   },

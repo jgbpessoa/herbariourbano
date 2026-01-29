@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import styles from "./page.module.css";
 import BackstageGallery from "./BackstageGallery";
 import { PLANTS } from "./data";
+import ZoomableImage from "./ZoomableImage";
 
 type PageProps = {
   params: { plant: string } | Promise<{ plant: string }>;
@@ -21,6 +23,13 @@ export default async function PlantPage({ params }: PageProps) {
 
   return (
     <main className={styles.main}>
+      <Link
+        href="/galeria"
+        className={`${styles.backstageButton} ${styles.backButton}`}
+        aria-label="Voltar para a galeria"
+      >
+        ⬅
+      </Link>
       <h1 className={styles.srOnly}>{plant.title}</h1>
       <Image
         src={`/tipografia/${slug}.svg`}
@@ -32,11 +41,11 @@ export default async function PlantPage({ params }: PageProps) {
       />
       <figure className={styles.figure}>
         <div className={styles.imageWrapper}>
-          <Image
+          <ZoomableImage
             src={plant.image}
             alt={plant.alt}
-            fill
-            className={styles.image}
+            imageClassName={styles.image}
+            priority
           />
         </div>
         <figcaption className={styles.caption}>{plant.caption}</figcaption>
