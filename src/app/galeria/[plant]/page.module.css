@@ -273,8 +273,8 @@
 
 .zoomButton {
   position: absolute;
-  right: 12px;
-  top: 8%;
+  right: calc(var(--zoom-offset-x, 0px) + 12px);
+  top: calc(var(--zoom-offset-y, 0px) + 12px);
   width: 42px;
   height: 42px;
   padding: 0;
