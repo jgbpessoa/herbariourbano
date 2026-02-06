@@ -8,7 +8,7 @@
   justify-content: flex-start;
   gap: 24px;
   width: 100vw;
-  min-height: calc(100dvh - 125px);
+  flex: 1;
 }
 
 .galleryGrid {

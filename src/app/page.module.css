@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  min-height: calc(100dvh - 125px);
+  flex: 1;
 }
 
 .mainContainer {
@@ -52,7 +52,9 @@
   padding: 12px 24px;
   border-radius: 500px;
   border: 2px solid #b5ce83;
-  transition: background 0.3s, color 0.3s;
+  transition:
+    background 0.3s,
+    color 0.3s;
   font-weight: 600;
 
   &:hover {

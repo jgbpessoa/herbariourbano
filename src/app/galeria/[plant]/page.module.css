@@ -8,7 +8,7 @@
   align-items: center;
   gap: 24px;
   width: 100%;
-  min-height: calc(100dvh - 125px);
+  flex: 1;
   font-family: "Sansita", "Times New Roman", serif;
 }
 
