@@ -26,15 +26,19 @@
 }
 
 .link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-height: 250px;
-  width: auto;
+  width: min(100%, 330px);
   position: relative;
   overflow: hidden;
 }
 
 .image {
-  max-width: 330px;
+  display: block;
+  width: 330px;
+  max-width: 100%;
   height: auto;
   transition: filter 200ms ease;
 }
@@ -114,6 +118,10 @@
   .title {
     font-size: 48px;
     margin-bottom: 48px;
+  }
+
+  .link {
+    width: auto;
   }
 
   .image {

@@ -34,6 +34,20 @@ const BACKSTAGE_BY_SLUG = {
     { src: "/bastidores/chamba/3.webp", caption: "Foto: Juliana Amara" },
     { src: "/bastidores/chamba/4.webp", caption: "Foto: Juliana Amara" },
   ],
+  "erva-baleeira": [
+    {
+      src: "/bastidores/erva-baleeira/1.webp",
+      caption: "Foto: Raphael Vieitez",
+    },
+    {
+      src: "/bastidores/erva-baleeira/2.webp",
+      caption: "Foto: Raphael Vieitez",
+    },
+    {
+      src: "/bastidores/erva-baleeira/3.webp",
+      caption: "Foto: Raphael Vieitez",
+    },
+  ],
   mastruz: [
     { src: "/bastidores/mastruz/1.webp", caption: "Foto: Raphael Vieitez" },
     { src: "/bastidores/mastruz/2.webp", caption: "Foto: Raphael Vieitez" },

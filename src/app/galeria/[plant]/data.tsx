@@ -199,6 +199,106 @@ export const PLANTS = {
       },
     ],
   },
+  "erva-baleeira": {
+    title: "Erva-Baleeira",
+    image: "/murais/erva-baleeira.webp",
+    alt: "Foto do Mural representando a planta Erva-Baleeira pintado por Micaela Nunes",
+    caption: "Foto: Raphael Vieitez",
+    info: [
+      {
+        label: "Local",
+        text: "CAPS Infantil Marcela Lucena - R. Marquês de Alegrete, 42 - Pina, Recife/PE.",
+      },
+      {
+        label: "Planta",
+        text: "Erva-Baleeira (Varronia curassavica).",
+      },
+      {
+        label: "Data",
+        text: "27/03/2026",
+      },
+      {
+        label: "Área Total",
+        text: "12m²",
+      },
+      {
+        label: "Equipe",
+        text: "Micaela Almeida (pintura) e Raphael Vieitez (assistente).",
+      },
+    ],
+    map: {
+      title: "Mapa do CAPS Infantil Marcela Lucena.",
+      src: "https://www.google.com/maps?q=CAPS%20Infantil%20Marcela%20Lucena%2C%20R.%20Marqu%C3%AAs%20de%20Alegrete%2C%2042%20-%20Pina%2C%20Recife%2FPE&output=embed",
+    },
+    sections: [
+      {
+        title: "O que é o espaço?",
+        body: "O CAPSi Marcela Lucena está instalado no bairro do Pina e oferece atendimento multidisciplinar para crianças de zero a 12 anos incompletos, em crise, com sofrimento psíquico e/ou transtornos mentais que afetem o seu desenvolvimento saudável. ",
+      },
+      {
+        title: "Projetos em destaque no espaço",
+        body: "O CAPSi Marcela Lucena dispõe de atividades como atendimentos individuais e em grupo de psicologia, terapia ocupacional, fonoaudiologia e médico; oficinas terapêuticas; visitas e atendimentos domiciliares, atendimentos à família, atividades comunitárias e desenvolvimento de ações em áreas de assistência social e educação. O espaço realiza uma ação periódica de terapia com as crianças a partir de plantas medicinais, chamado de Terrapia.",
+      },
+      {
+        title: "Por que escolheu esta planta?",
+        body: "A erva-baleeira foi escolhida por seu uso medicinal e pela força dos saberes populares que carrega. Presente nas práticas de cuidado, ela representa a continuidade dos conhecimentos tradicionais e a importância das plantas na promoção da saúde.",
+      },
+      {
+        title: "Agradecimentos",
+        body: "O projeto Herbário Urbano agradece o acolhimento do CAPSi infantil Marcela Lucena, através de sua Gestão, funcionárias/os e as crianças e suas famílias que frequentam o espaço!",
+      },
+    ],
+  },
+  goiabeira: {
+    title: "Goiabeira",
+    image: "/murais/goiabeira.webp",
+    alt: "Foto do Mural representando a planta Goiabeira pintado por Micaela Nunes",
+    caption: "Foto: Raphael Vieitez",
+    info: [
+      {
+        label: "Local",
+        text: "TIP - Terminal Integrado de Passageiros do Recife - Av. Pref. Antônio Pereira, S/N - Curado, Recife/PE.",
+      },
+      {
+        label: "Planta",
+        text: "Goiabeira (Psidium guajava).",
+      },
+      {
+        label: "Data",
+        text: "09 e 10/02/2026",
+      },
+      {
+        label: "Área Total",
+        text: "20m²",
+      },
+      {
+        label: "Equipe",
+        text: "Micaela Almeida (pintura) e Raphael Vieitez (assistente).",
+      },
+    ],
+    map: {
+      title: "Mapa do TIP - Terminal Integrado de Passageiros do Recife.",
+      src: "https://www.google.com/maps?q=TIP%20-%20Terminal%20Integrado%20de%20Passageiros%20do%20Recife%2C%20Av.%20Pref.%20Ant%C3%B4nio%20Pereira%2C%20S%2FN%20-%20Curado%2C%20Recife%2FPE&output=embed",
+    },
+    sections: [
+      {
+        title: "O que é o espaço?",
+        body: "O Terminal Integrado de Passageiros do Recife é o principal terminal rodoviário de Recife, inaugurado em 1986 no bairro da Várzea, conectando a capital a diversos destinos interestaduais e municipais, integrado diretamente à estação de metrô.",
+      },
+      {
+        title: "Projetos em destaque no espaço",
+        body: "Atualmente o espaço conta com diversas pinturas muralistas em seu interior e se propõe a acolher alternativas artísticas e inovadoras para as/os passageiras/os através da atual gestão.",
+      },
+      {
+        title: "Por que escolheu esta planta?",
+        body: "A goiabeira foi escolhida por ser uma planta popular e presente no cotidiano de quem transita pelo terminal. Em um espaço de conexões entre diferentes regiões, ela simboliza encontro, circulação e pertencimento, além de remeter à nutrição e às memórias afetivas.",
+      },
+      {
+        title: "Agradecimentos",
+        body: "O projeto Herbário Urbano agradece o acolhimento do TIP - Terminal Integrado de Passageiros do Recife, através de sua atual Gestão, funcionárias/os e todas/os as/os passageiras/os que atravessam diariamente esse espaço de encontros e deslocamentos!",
+      },
+    ],
+  },
   mastruz: {
     title: "Mastruz",
     image: "/murais/mastruz.webp",

@@ -35,6 +35,20 @@ export default function GaleriaPage() {
       height: 2000,
     },
     {
+      slug: "erva-baleeira",
+      src: "/murais/erva-baleeira.webp",
+      alt: "Foto do Mural representando a planta Erva-Baleeira pintado por Micaela Nunes",
+      width: 3000,
+      height: 2000,
+    },
+    {
+      slug: "goiabeira",
+      src: "/murais/goiabeira.webp",
+      alt: "Foto do Mural representando a planta Goiabeira pintado por Micaela Nunes",
+      width: 3000,
+      height: 2000,
+    },
+    {
       slug: "mastruz",
       src: "/murais/mastruz.webp",
       alt: "Foto do Mural representando a planta Mastruz pintado por Micaela Nunes",

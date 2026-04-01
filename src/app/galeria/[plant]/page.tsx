@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -16,6 +18,10 @@ export default async function PlantPage({ params }: PageProps) {
   const resolvedParams = await params;
   const slug = resolvedParams.plant?.toLowerCase();
   const plant = slug ? PLANTS[slug as keyof typeof PLANTS] : undefined;
+  const audioSrc = slug ? `/audios/${slug}.mp3` : null;
+  const hasAudio =
+    slug !== undefined &&
+    existsSync(join(process.cwd(), "public", "audios", `${slug}.mp3`));
 
   if (!plant) {
     notFound();
@@ -51,13 +57,15 @@ export default async function PlantPage({ params }: PageProps) {
         <figcaption className={styles.caption}>{plant.caption}</figcaption>
       </figure>
       <BackstageGallery slug={slug ?? ""} />
-      <div className={styles.audioWrapper}>
-        <p>Áudio descrição</p>
-        <audio controls>
-          <source src={`/audios/${slug}.mp3`} type="audio/mpeg" />
-          Seu navegador não suporta o elemento de áudio.
-        </audio>
-      </div>
+      {hasAudio && audioSrc ? (
+        <div className={styles.audioWrapper}>
+          <p>Áudio descrição</p>
+          <audio controls>
+            <source src={audioSrc} type="audio/mpeg" />
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+        </div>
+      ) : null}
       <div className={styles.textWrapper}>
         <div className={styles.infoCard}>
           {plant.info.map((item) => (
