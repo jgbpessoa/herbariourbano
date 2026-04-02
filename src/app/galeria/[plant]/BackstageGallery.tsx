@@ -48,6 +48,12 @@ const BACKSTAGE_BY_SLUG = {
       caption: "Foto: Raphael Vieitez",
     },
   ],
+  goiabeira: [
+    { src: "/bastidores/goiabeira/1.webp", caption: "Foto: Raphael Vieitez" },
+    { src: "/bastidores/goiabeira/2.webp", caption: "Foto: Raphael Vieitez" },
+    { src: "/bastidores/goiabeira/3.webp", caption: "Foto: Raphael Vieitez" },
+    { src: "/bastidores/goiabeira/4.webp", caption: "Foto: Raphael Vieitez" },
+  ],
   mastruz: [
     { src: "/bastidores/mastruz/1.webp", caption: "Foto: Raphael Vieitez" },
     { src: "/bastidores/mastruz/2.webp", caption: "Foto: Raphael Vieitez" },
