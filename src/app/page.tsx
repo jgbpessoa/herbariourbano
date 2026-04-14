@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <a
           className={styles.link}
-          href="/ebook-do-herbario-urbano.pdf"
+          href="/herbario-urbano-ebook.pdf"
           target="_blank"
           rel="noopener"
         >
